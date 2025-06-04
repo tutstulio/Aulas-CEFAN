@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Criar Conta</title>
+        <link rel="stylesheet" href="cadastro.css">
+    </head>
+
+    <body style="background-color: rgb(102, 98, 112);">
+        <form>
+            <h1 style="color: antiquewhite;">Criar Conta</h1>
+            <input type="text" placeholder="Usuário" id="username">
+            <input type="email" placeholder="Email" id="email">
+            <input type="password" placeholder="Senha" id="pass">
+            <input type="password" placeholder="Confirmar senha" id="passConfirm">
+            <input type="text" placeholder="Peso (kg)" id="peso">
+            <input type="text" placeholder="Altura (m)" id="altura">
+            <input type="submit" onclick="cadastrar(); return false">
+        </form>
+
+        <script src="cadastro.js"></script>
+    </body>
+</html>
