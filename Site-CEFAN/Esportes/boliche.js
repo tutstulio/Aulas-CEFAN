@@ -28,7 +28,8 @@ function adicionar ()
     const opens = document.getElementById('opens').value;
     const obs = document.getElementById('obs').value;
 
-    const tabela = document.querySelector('.records tbody');
+    const recordsTable = document.querySelector('.records tbody');
+    const metricsTableRow = document.querySelector('.metrics tbody tr');
     const novaLinha = document.createElement('tr');
 
     novaLinha.innerHTML = `
@@ -41,5 +42,13 @@ function adicionar ()
         <td>${obs}</td>
     `;
 
-    tabela.appendChild(novaLinha);
+    recordsTable.appendChild(novaLinha);
+
+    const total = recordsTable.childElementCount - 1;
+
+    metricsTableRow.children[0].textContent = "A dias/mês";
+    metricsTableRow.children[1].textContent = 45;
+    metricsTableRow.children[2].textContent = 45.2;
+    metricsTableRow.children[3].textContent = 5.7;
+    metricsTableRow.children[4].textContent = total + " dias";
 }
