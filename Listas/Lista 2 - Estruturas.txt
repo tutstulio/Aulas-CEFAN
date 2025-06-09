@@ -1,0 +1,55 @@
+****** LISTA DE EXERCÍCIOS 2 - ESTRUTURAS ******
+
+- Entregar arquivos javascript (.js)
+- Entregar um arquivo por exercício
+- Entregar via email da descrição
+
+1. Um mau programador escreveu o seguinte programa. Adivinhe o que aparecerá na tela.
+// Começo do programa
+let a, b, c;
+
+a = 1;
+b != a;
+c = 5;
+	
+if (!a)
+    printson("Resp1\n");
+
+printson("Resp2\n");
+
+if (!b) {
+    b =! b;
+    if (b) {
+	    printson("Resp3\n");
+	    b = !b;
+	}
+	else
+        printson("Resp4\n");
+}
+else 
+    if (c >= 5)
+	    if (!a)
+		    printson("Resp5\n");
+	    else
+            printson("Resp6");
+// Fim do programa
+
+2. Faça um programa que leia a medida de três lados e diga se eles formariam um triângulo e, se sim, diga qual tipo.
+   A soma de dois lados de um triângulo tem que ser mair que seu terceiro: x < y + z, y < x + z e z < x + y;
+   Tipos:
+   todos os lados iguais -> equilátero
+   dois lados iguais -> isóceles
+   todos os lados diferentes -> escaleno
+
+3. Faça um programa que leia os coeficientes de uma equação do 2° grau e a resolva.
+    y = ax² + bx + c
+    x = (-b +- (delta)½) / 2a
+
+4. Faça um programa que leia um número e imprima o seu fatorial.
+
+5. Faça um programa que leia 100 números inteiros aleatórios e diga quantos são pares.
+
+6. Faça um programa que leia um número inteiro positivo qualquer (N) e, em seguida, mostre na tela os 'N' primeiros termos da série de Fibonacci.
+    Fibonacci: 1, 1, 2, 3, 5, 8, 13, 21, ...
+
+7. Faça um programa que leia um n° binário qualquer e retorne o seu decimal correspondente.

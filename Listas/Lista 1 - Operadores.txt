@@ -1,0 +1,36 @@
+****** LISTA DE EXERCÍCIOS 1 - OPERADORES ******
+
+- Entregar arquivos javascript (.js)
+- Entregar um arquivo por exercício
+- Entregar via email da descrição
+
+1. Faça um programa que leia hora, minuto e segundo e transforme tudo pra segundos.
+
+2. Faça um programa que leia um valor gasto em um restaurante e imprima esse valor com uma gorjeta de 10% do valor. Imprima o resultado no padrão moeda real (R$00.00).
+
+3. Faça um programa que calcule o volume de uma lata de óleo, dado um raio e altura a sua escolha.
+
+4. Faça um programa que leia uma dada temperatura em graus Célsius (°C) e a transforme em graus Farenheit (°F).
+
+5. Faça um programa que leia um valor inteiro de reais e diga com quantas MOEDAS de 50, 25, 10, 5 ou 1 centavos podemos representar esse valor.
+
+6. Imprima o antecessor e o sucessor de um valor escolhido por você.
+
+7. Calcule e imprima a média harmônica entre três valores escolhidos por você.
+
+8. Faça um programa que leia um total de segundos e o transforme para horas, minutos e segundos.
+
+9. Faça um programa que converta um número binário de até 4 digitos para número decimal.
+Ex:
+0000 = 0,	0100 = 4,	1000 = 8,	1100 = 12,
+0001 = 1,	0101 = 5,	1001 = 9,	1101 = 13,
+0010 = 2,	0110 = 6,	1010 = 10,	1110 = 14,
+0011 = 3,	0111 = 7,	1011 = 11,	1111 = 15;
+
+10. Faça um programa que leia 2 valores (a, b) e em seguida, efetue a troca dos valores de forma que a variável 'a' passe a ter o valor da variável 'b' e virce-versa.
+
+Extra: Resolver um exercício acima lendo os dados via terminal.
+Ex. Pseudocódigo:
+var x;
+x = entrada();	// função para ler o terminal
+saida(x);	// mostra o que foi digitado
