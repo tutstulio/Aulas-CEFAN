@@ -49,9 +49,12 @@ h1 {
 }
 
 table {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 1rem;
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 1rem;
+      display: block;
+      overflow-x: auto;
+      white-space: nowrap;
 }
 
 th, td {
