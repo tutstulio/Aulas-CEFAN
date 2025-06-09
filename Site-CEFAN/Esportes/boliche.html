@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Boliche</title>
+    <link rel="stylesheet" href="boliche.css">
+  </head>
+
+  <body>
+    <div class="dashboard">
+      <h1>Quadro do Atleta - Boliche</h1>
+
+      <section class="profile">
+        <div class="profile-photo" aria-label="Foto do atleta"></div>
+        <div class="profile-info">
+          <h2 id="nome">João Silva</h2>
+          <p id="idade">Idade: 29 anos</p>
+          <p id="altura">Altura: 178 cm</p>
+          <p id="peso">Peso: 75 kg</p>
+          <p id="mao">Mão dominante: Direita</p>
+          <p id="xp">Nível de experiência: Intermediário</p>
+        </div>
+      </section>
+
+      <section class="records">
+        <h2>Feitos Registrados</h2>
+        <button type="button" onclick="adicionar()">Adicionar</button>
+        <br>
+        <table>
+          <thead>
+            <tr>
+              <th>Data</th>
+              <th>Pontuação</th>
+              <th>Strikes</th>
+              <th>Spares</th>
+              <th>Splits</th>
+              <th>Abertos</th>
+              <th>Observações</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><input type="date" id="data"></td>
+              <td><input type="number" id="pontos"></td>
+              <td><input type="number" id="strikes"></td>
+              <td><input type="number" id="spares"></td>
+              <td><input type="number" id="splits"></td>
+              <td><input type="number" id="opens"></td>
+              <td><input type="text" id="obs"></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </div>
+
+    <footer>
+      <span><a href="..\Home\home.html">Voltar</a></span>
+    </footer>
+    <script src="boliche.js"></script>
+  </body>
+</html>

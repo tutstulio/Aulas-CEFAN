@@ -5,8 +5,11 @@ function cadastrar()
     const email = document.getElementById('email').value;
     const senha = document.getElementById('pass').value;
     const senhaConfirmada = document.getElementById('passConfirm').value;
+    const idade = document.getElementById('idade').value;
     const peso = document.getElementById('peso').value;
     const altura = document.getElementById('altura').value;
+    const mao = document.getElementById('mao').value;
+    const xp = document.getElementById('xp').value;
 
     // Validação simples
     if (!username || !email || !senha || !senhaConfirmada || !peso || !altura) {
@@ -25,8 +28,11 @@ function cadastrar()
         username,
         email,
         senha,
+        idade,
         peso,
-        altura
+        altura,
+        mao,
+        xp
     };
 
     // Recupera lista de usuários ou cria uma nova
@@ -44,5 +50,5 @@ function cadastrar()
     alert("Usuário cadastrado com sucesso!");
 
     // Redireciona para a Home
-    window.location.href = "../Home/home.html";
+    window.location.href = "../Login/login.html";
 }

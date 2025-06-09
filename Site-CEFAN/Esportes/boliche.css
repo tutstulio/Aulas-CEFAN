@@ -1,0 +1,78 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f0f4f8;
+    margin: 0; padding: 2rem;
+    color: #2c3e50;
+}
+
+.dashboard {
+    max-width: 900px;
+    margin: 0 auto;
+    background: white;
+    padding: 2rem 3rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.profile {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 3rem;
+    align-items: center;
+}
+
+.profile-photo {
+    flex-shrink: 0;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: #ccc url('https://via.placeholder.com/120') center center/cover no-repeat;
+}
+
+.profile-info {
+    flex-grow: 1;
+}
+
+.profile-info h2 {
+    margin: 0 0 0.5rem;
+}
+
+.profile-info p {
+    margin: 0.2rem 0;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1rem;
+}
+
+th, td {
+    padding: 0.75rem 1rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background: #2980b9;
+    color: white;
+    font-weight: 600;
+}
+
+tbody tr:hover {
+    background: #f0f8ff;
+}
+
+.no-records {
+    text-align: center;
+    padding: 1.5rem;
+    color: #777;
+    font-style: italic;
+}

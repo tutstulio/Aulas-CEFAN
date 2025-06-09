@@ -1,17 +1,16 @@
-function logar()
-{
+function logar() {
     // Coleta os dados do formulário
-    const username = document.getElementById('login').value;
+    const login = document.getElementById('login').value;
     const senha = document.getElementById('senha').value;
     
     // Procura pelo usuário
     const users = JSON.parse(localStorage.getItem('users')) || [];
-    const userFound = users.find(u => u.username === username && u.senha === senha);
+    const thisUser = users.find(u => u.username === login && u.senha === senha);
 
     // Armazena usuário e redireciona página, se encontrado
-    if (userFound) {
+    if (thisUser) {
         alert("Suuuuuucesso!");
-        sessionStorage.setItem('userFound', JSON.stringify(userFound));
+        localStorage.setItem('thisUser', JSON.stringify(thisUser));
         window.location.href = "../Home/home.html";
     }
     else {
