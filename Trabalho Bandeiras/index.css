@@ -1,33 +1,22 @@
-* {
-    width: 100%;
-    height: 100%;
-}
-
 body {
-    width: 500px;
-    height: 100px;
-    margin: 0px;
-    padding: 0px;
+    width: 400px;
+    height: 280px;
 }
 
-#titulo {
-    font-family: Arial, Helvetica, sans-serif;
+h1 {
+    width: 200%;
     color: blueviolet;
     text-align: center;
-    width: 100%;
-    height: 10px;
-    margin: 75px;
-    padding: 10px;
+    font-style: italic;
+}
+
+#especial {
+    color: brown;
+    font-family: Arial, sans-serif;
+    font-size: x-large;
 }
 
 #tabela {
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(67, 101, 34);
-    text-align: justify;
-    width: 70%;
-    height: 100%;
-    margin: 5px;
-    padding: 2px;
-    border-style: double;
     display: grid;
+    border-style: dashed;
 }
